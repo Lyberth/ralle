@@ -7,7 +7,7 @@
     <nav class="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
         <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
             <a href="" class="flex items-center">
-                <img src="./assets/img/logo.png" class="mr-3 h-6 sm:h-9" alt="" />
+                <img src="./assets/img/logo.png" class="mr-3 h-20" alt="" />
                 <span class="self-center text-xl font-Segoe Print2  whitespace-nowrap dark:text-white"></span>
             </a>
             
@@ -48,26 +48,24 @@
 <h1 class="CHROMA flex-center my-8 text-center text-1xl ">Her er nogle udsnit af nogle ting jeg har lavet gennem som Multimediedesginer. Mine stærke sidder indenfor Multimediedesigner er: UI/UX,Content Creation og Photoshop</h1>
 
 
-<div class="grid gap-4 my-20">
+
     
-    <div class="grid grid-cols-5 gap-15 px-20">
-        <div>
-            <img class="h-auto max-w-full rounded-lg px-10" src="./assets/img/toot2.png" alt="">
-        </div>
-        <div>
-            <img class="h-auto max-w-full ml-2" src="./assets/img/poster.png" alt="">
-        </div>
-        <div>
-            <img class="h-auto max-w-full mr-2" src="./assets/img/liverpool2.png" alt="">
-        </div>
-        <div>
-            <img class="h-auto max-w-full ml-4" src="./assets/img/poster2.png" alt="">
-        </div>
-        <div>
-            <img class="h-auto max-w-full  px-11" src="./assets/img/rooney2.png" alt="">
-        </div>
+    <div class=" billeder flex justify-between  items-center ">
+       
+            <img class="h-auto " src="./assets/img/toot2.png" alt="">
+       
+            <img class="h-auto " src="./assets/img/poster.png" alt="">
+        
+       
+            <img class="h-auto " src="./assets/img/liverpool2.png" alt="">
+       
+        
+            <img class="h-auto " src="./assets/img/poster2.png" alt="">
+        
+      
+            <img class="h-auto " src="./assets/img/rooney2.png" alt="">
+      
     </div>
-</div>
 
 
 
@@ -190,7 +188,7 @@
                   <h2 class="mb-6 text-sm font-semibold text-black-900 uppercase dark:text-white">Adresse</h2>
                   <ul class="text-black-600 dark:text-black-400 font-medium">
                       <li class="mb-4">
-                          <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Spangsbjerg Møllevej 62C</a>
+                          <a href="" class="hover:underline ">Spangsbjerg Møllevej 62C</a>
                       </li>
                       <li>
                           <a href="" class="hover:underline">EASV Esbjerg</a>
@@ -242,5 +240,11 @@
 </template>
 
 <style scoped>
+.billeder{ 
+ display: flex;
+ justify-content: space-evenly; 
+}
+@media screen and (max-width: 700px) {   .billeder {        flex-direction: column; gap: 30px;  } }
+
 
 </style>
